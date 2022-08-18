@@ -1,0 +1,74 @@
+header, nav, article{
+    font-family: 'Blaka', cursive;
+    font-size: 26px;
+}
+
+body{
+    background: radial-gradient(#fff, #222);
+    border: solid 1px #000;
+}
+
+/*----- Header -----*/
+
+header{
+    text-align: center;
+}
+
+/*----- Navegador -----*/
+
+.navegador{
+    background: #999;
+    width: 600px;
+    margin: auto;
+}
+
+.navegador li{
+    display: inline-block;
+    padding: 2px;
+}
+
+.navegador i{
+    padding: 5px;
+}
+
+.navegador a{
+    text-decoration: none;
+}
+
+.navegador li:hover{
+    background: #bbb;
+}
+
+/*----- Article -----*/
+
+article{
+    display: inline-block;
+    width: 100vh;
+    background: #aaa;
+    margin: 10px;
+}
+
+article img{
+    padding: 10px;
+    width: 30vh;
+    float: left;
+}
+
+article p{
+    padding: 10px;
+    text-align: justify;
+}
+
+/*----- Aside -----*/
+
+.aside{
+    display: inline-block;
+    width: 20vh;
+    background: #bbb;
+}
+
+/*----- Footer -----*/
+
+footer{
+    display: none;
+}
